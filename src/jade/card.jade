@@ -1,0 +1,24 @@
+extends ./layout.jade
+block content
+  .wrapper
+    h1 UI-Cards
+    p.
+      Some explanation of cards
+    .cardSection
+      include ./modules/card.jade
+    h2 The Jade code
+    pre
+      code
+        | .card
+        |   header
+        |   section.card-body
+        |     h1 USA Chicago
+        |     p.
+        |       Lorema ipsum dolor sit amet, consectetur adipiscing elit. Quisque ornare ornare sollicitudin. Suspendisse potenti.
+        |     section.card-actions
+        |       button(data-rippleEffect="button") View
+        |       button(data-rippleEffect="button") Comments
+    h2 The JavaScript
+    pre
+      code
+        | Here comes the javascript

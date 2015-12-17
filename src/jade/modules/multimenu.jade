@@ -1,0 +1,65 @@
+.container
+  .hamburger-menu
+    span
+    span
+    span
+  nav#ml-menu.menu.slide-menu.closed
+    .menu__container
+      .menu__wrap
+        ul(data-menu="main").menu__level
+          li.menu__item
+            a(href="index.html").menu__link Home
+          li.menu__item
+            a(href="#" data-submenu="submenu-1").menu__link Components
+          li.menu__item
+            a(href="#" data-submenu="submenu-2").menu__link Styles
+          li.menu__item
+            a(href="#" data-submenu="submenu-3").menu__link Layout
+          li.menu__item
+            a(href="http://www.martinr.nl").menu__link Martin Risseeuw
+
+
+        ul(data-menu="submenu-1").menu__level
+          li.menu__item
+            a(href="#" data-submenu="submenu-1-1").menu__link Menus
+          li.menu__item
+            a(href="#" data-submenu="submenu-2-1").menu__link Cards
+          li.menu__item
+            a(href="buttonbar.html").menu__link Buttons
+          li.menu__item
+            a(href="morphing_buttons.html").menu__link Morphing Buttons
+
+
+        ul(data-menu="submenu-1-1").menu__level
+          li.menu__item
+            a(href="slidemenu.html").menu__link Slide menu
+          li.menu__item
+            a(href="stickymenu.html").menu__link Sticky menu
+          li.menu__item
+            a(href="multimenu.html").menu__link Multi-level menu
+
+
+        ul(data-menu="submenu-2-1").menu__level
+          li.menu__item
+            a(href="colorcards.html").menu__link Color cards
+          li.menu__item
+            a(href="card.html").menu__link Standard cards
+
+        ul(data-menu="submenu-2").menu__level
+          li.menu__item
+            a(href="#").menu__link Typography
+          li.menu__item
+            a(href="#").menu__link Icons
+
+        ul(data-menu="submenu-3").menu__level
+          li.menu__item
+            a(href="flexbox.html").menu__link Flexbox
+          li.menu__item
+            a(href="heroheader.html").menu__link Hero header
+          li.menu__item
+            a(href="thumbs.html").menu__link Thumbnails
+
+script(src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js")
+script(src="./public/js/classie.js")
+script(src="./public/js/slideMenu.js")
+script(src="./public/js/multiMenu.js")

@@ -1,0 +1,105 @@
+.noScroll
+  overflow hidden
+
+.slide-menu
+  position fixed
+  left 0
+  top 0
+  height 100vh
+  background projectColor
+  color white
+  padding 100px 50px 0
+  z-index 1
+  font-size 1.5em
+  transition transform .2s ease-in-out
+  if useShadow
+    box-shadow 3px 0px 3px rgba(50,50,50, .3)
+  li
+    a
+      color canvas
+      opacity .65
+      &:hover
+        opacity 1
+.slide-menu.closed
+  transform translateX(-100%)
+.slide-menu.open
+  transform translateX(0%)
+
+.slide-menu.top
+  width 100vw
+.slide-menu.top.closed
+  transform translateY(-100%)
+
+.slide-menu.top.open
+  transform translateY(0%)
+  
+.hamburger-menu
+  top 50px
+  left 50px
+  z-index 2
+  width 30px
+  height 45px
+  position fixed
+  transform rotate(0deg)
+  transition .5s ease-in-out
+  cursor pointer
+  span
+    display block
+    position absolute
+    height 3px
+    width 100%
+    background projectColor
+    border-radius 1px
+    opacity 1
+    left 0
+    transform rotate(0deg)
+    transition .25s ease-in-out
+    
+.hamburger-menu span:nth-child(1) 
+  top 0px
+  transform-origin left center
+
+
+.hamburger-menu span:nth-child(2) 
+  top 9px
+  transform-origin left center
+
+.hamburger-menu span:nth-child(3) 
+  top 18px
+  transform-origin left center
+
+.open span:nth-child(1) 
+  transform rotate(45deg)
+  top -3px
+  left 4px
+
+.hamburger-menu.open span:nth-child(2) 
+  width 0%
+  opacity 0
+
+.hamburger-menu.open span:nth-child(3) 
+  transform rotate(-45deg)
+  top 18px
+  left 4px
+  
+.hamburger-menu.open
+  span
+    background canvas
+
+#main-content
+  transition transform .2s ease-in-out
+
+#main-content.open
+  transform translateX(200px)
+
+@media only screen and (max-width: 375px) and (-webkit-min-device-pixel-ratio : 2)
+  .slide-menu
+    width 100vw
+  .hamburger-menu
+    top 30px
+    left 30px
+  .slide-menu
+    padding 100px 30px 0
+  #main-content
+    width 100vw
+  
