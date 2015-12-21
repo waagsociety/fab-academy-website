@@ -1,24 +1,40 @@
 extends ./layout.jade
-block pageVars
-  -var pageTitle = "Welcone - Open UI Components"
 block content
-  .wrapper
-    h1 Welcome to Open-UI components
-    p.
-      You can find this project on <a href="https://github.com/martinrisseeuw/Boilerplate">GitHub</a>
-    h3 Tools used for this project
-    ul
-      li Jade
-      li Stylus
-      li Javascript
-      li Gulp
-      li gulp-inject
-      li gulp-autoprefixer
-      li gulp-minifyCSS
-      li gulp-changed
-      li gulp-imagemin
-      li gulp-rename
-      li gulp-concat
-      li jshint 
-      li uglify
-      li browserSync
+  header
+    svg(viewBox="0 0 3800 1200")
+      symbol#s-text
+        text(text-anchor="middle" x="50%" y="50%" dy=".35em") Fab Academy
+      use.text(xlink:href="#s-text")
+      use.text(xlink:href="#s-text")
+      use.text(xlink:href="#s-text")
+      use.text(xlink:href="#s-text")
+      use.text(xlink:href="#s-text")
+  main
+    section.coordinators.left
+      h2 Guru & Coordinator:
+      p Emma Pareschi 
+      h2 Instructors: 
+      p Emma Pareschi
+      p Mickael Boulay
+      p Martin Risseeuw  
+
+      h2 Videos & Version control: 
+      p Zaerc
+
+    section.project.left
+      h2 Machine Building Group Assignment: 
+      h1 Hotwire cutter
+      button View Project
+
+    section.students.left
+      section
+        h1 Students
+      ul
+        li Loes Bogers
+        li Joseph Kruczkowski
+        li Natalia Papadopoulou
+        li Till Cremer
+        li Loes Bogers
+        li Joseph Kruczkowski
+        li Natalia Papadopoulou
+        li Till Cremer

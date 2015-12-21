@@ -1,17 +1,14 @@
 doctype html
 html(lang="en")
   block pageVars
-    -var pageTitle = "Open UI Components"
+    -var pageTitle = "Fab Academy 2016"
   head 
     title= pageTitle
     link(href='main.css', rel="stylesheet")
     meta(name='viewport', content='width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1, user-scalable=0')
   body
     block pagehead
-    block navigation
-      include ./modules/multimenu.jade
     #main-content.main-content
       block content
       
     block footer
-      script(src="./public/js/main.js")

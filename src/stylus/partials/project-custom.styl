@@ -1,33 +1,144 @@
-body, html, .main-content, #mainContent
-  height 100%
+.headerSign
+	padding 25px 50px
+	position absolute
+	width 80%
+	left 50%
+	top 50%
+	border: 4px solid #50E3C2;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	text-align: center
+	color #50E3C2
+	h1,
+	h2
+		margin-bottom .2em
+	p
+		margin-bottom 0
+	h2
+		font-family brandon_textlight, sans-serif
+		text-transform none
 
-.two-col
-	background #FE5F55
-	color white
-
-.flex
-	article:nth-of-type(1)
-		width 100vw
-		min-height 100vh
-		height auto
-		h1
-			font-size 9em
-	article:nth-of-type(6)
+main
+	display flex
+	flex-wrap wrap
+	align-content flex-end
+	padding 1%
+	section
+		flex-grow 1
+		border 4px solid #50E3C2
+		width 48%
+		margin 1%
+.coordinators
+	h2
+		font-family 'brandon_textlight', sans-serif
+		font-size 1em
+		margin-bottom .2em
+		margin-top 2em
+	p
+		font-family 'brandon_textbold', sans-serif
+		font-size 2.3em
+		margin-bottom .2em
+.coordinators,
+.project
+	padding 40px
+.project
+	h2
+		font-family 'brandon_textlight', sans-serif
+		font-size 1em
+		margin-bottom .2em
+		margin-top 2em
+	h1
+		text-transform none
+		font-size 4em
+	button
+		text-align center
+		margin 50px auto 0
+		display block
+		padding 20px 40px
+		font-size 2em
 		width 100%
-		height 100%
+		transition background-color .2s ease-out
+		&:hover
+			background-color #BD10E0
+			color white
+			
+.students
+	section
+		width 100%
+		padding 20px 40px
+		background-color #50E3C2
+		margin 0	
+		border-top none
+		border-left none
+		border-right none
 		h1
-			font-size 2em
-	article
-		h1
-			font-size 2em
-#main-content
-	margin-top 100px
+			margin-bottom 0
+			color white
+	ul
+		padding 40px
+		column-count 2
+	li
+		font-family 'brandon_textbold', sans-serif		
+		font-size 2.3em
+		margin-bottom .2em
+		
+@media (max-width: 600px)
+	main
+		section
+			width 100%
+			
+/* Main stuff */
+.text {
+  fill: none;
+  stroke-width: 12;
+  stroke-linejoin: round;
+  stroke-dasharray: 70 330;
+  stroke-dashoffset: 0;
+  -webkit-animation: stroke 6s infinite linear;
+  animation: stroke 6s infinite linear; }
+  .text:nth-child(5n + 1) {
+    stroke: #8bacf2;
+    -webkit-animation-delay: -1.2s;
+    animation-delay: -1.2s; }
+  .text:nth-child(5n + 2) {
+    stroke: #fc7d7d;
+    -webkit-animation-delay: -2.4s;
+    animation-delay: -2.4s; }
+  .text:nth-child(5n + 3) {
+    stroke: #50e3c2;
+    -webkit-animation-delay: -3.6s;
+    animation-delay: -3.6s; }
+  .text:nth-child(5n + 4) {
+    stroke: #2d30e0;
+    -webkit-animation-delay: -4.8s;
+    animation-delay: -4.8s; }
+  .text:nth-child(5n + 5) {
+    stroke: #f8e71c;
+    -webkit-animation-delay: -6s;
+    animation-delay: -6s; }
 
-@media only screen and (max-width: 375px) and (-webkit-min-device-pixel-ratio : 2)
-  .flex
-    article:nth-of-type(1)
-      width 100vw
-      min-height 100vh
-      height auto
-      h1
-        font-size 4em
+@-webkit-keyframes stroke {
+  100% {
+    stroke-dashoffset: -400; } }
+@keyframes stroke {
+  100% {
+    stroke-dashoffset: -400; } }
+
+header {
+  font-weight: 800;
+	font-size: 35em;}
+
+svg {
+  width: 80%;
+  margin: auto;
+  display: block;
+  text-transform: uppercase;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%); }
+
+/*# sourceMappingURL=style12.css.map */
+
+
+

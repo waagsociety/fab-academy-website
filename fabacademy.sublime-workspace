@@ -1,0 +1,526 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"tra",
+				"transition"
+			],
+			[
+				"rem",
+				"removeElementsByClass"
+			],
+			[
+				"add",
+				"addEventListener"
+			],
+			[
+				"sim",
+				"SimpleAlert"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"def",
+				"default_btn"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"st",
+				"style	Tag"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"backgro",
+				"background-image"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"fo",
+				"font"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/jade/layout.jade",
+			"settings":
+			{
+				"buffer_size": 385,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/stylus/partials/header.styl",
+			"settings":
+			{
+				"buffer_size": 51,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/stylus/partials/project-custom.styl",
+			"settings":
+			{
+				"buffer_size": 253,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/jade/index.jade",
+			"settings":
+			{
+				"buffer_size": 586,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/stylus/partials/base.styl",
+			"settings":
+			{
+				"buffer_size": 319,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"install"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/martinrisseeuw/Documents/Projects/fab_academy_website/code",
+		"/Users/martinrisseeuw/Documents/Projects/fab_academy_website/code/src",
+		"/Users/martinrisseeuw/Documents/Projects/fab_academy_website/code/src/jade",
+		"/Users/martinrisseeuw/Documents/Projects/fab_academy_website/code/src/stylus",
+		"/Users/martinrisseeuw/Documents/Projects/fab_academy_website/code/src/stylus/partials"
+	],
+	"file_history":
+	[
+		"/Users/martinrisseeuw/Documents/Projects/fab_academy_website/code/src/jade/index.jade",
+		"/Users/martinrisseeuw/Documents/Projects/fab_academy_website/code/.gitignore",
+		"/Users/martinrisseeuw/Documents/Projects/mesch-platform/dev/liferay-plugins-sdk-6.2.0/themes/atm3-theme/docroot/_diffs/app/main.js",
+		"/Users/martinrisseeuw/Documents/Projects/mesch-platform/dev/liferay-plugins-sdk-6.2.0/themes/atm3-theme/docroot/_diffs/app/controllers/homeController.js",
+		"/Users/martinrisseeuw/Documents/Projects/mesch-platform/dev/liferay-plugins-sdk-6.2.0/themes/atm3-theme/docroot/_diffs/app/controllers/recipeController.js",
+		"/Users/martinrisseeuw/Documents/Projects/mesch-platform/dev/liferay-plugins-sdk-6.2.0/themes/atm3-theme/docroot/_diffs/css/main.css",
+		"/Users/martinrisseeuw/Documents/Projects/fablab_website/code/src/stylus/partials/development.styl",
+		"/Users/martinrisseeuw/Documents/Projects/fablab_website/code/src/stylus/partials/slidemenu.styl",
+		"/Users/martinrisseeuw/Documents/Projects/fablab_website/code/site/templates/home.php",
+		"/Users/martinrisseeuw/Documents/Projects/fablab_website/code/src/scripts/slideMenu.js",
+		"/Users/martinrisseeuw/Documents/Projects/fablab_website/code/site/blueprints/site.php",
+		"/Users/martinrisseeuw/Documents/Projects/fablab_website/code/gulpfile.js",
+		"/Users/martinrisseeuw/Documents/Projects/fablab_website/code/site/blueprints/default.php",
+		"/Users/martinrisseeuw/Documents/Projects/fablab_website/code/site/blueprints/machine.php",
+		"/Users/martinrisseeuw/Documents/Projects/fablab_website/code/site/blueprints/home.php",
+		"/Users/martinrisseeuw/Documents/Projects/fablab_website/code/site/blueprints/machines.php",
+		"/Users/martinrisseeuw/Documents/Projects/fablab_website/code/site/templates/machine.php",
+		"/Users/martinrisseeuw/Documents/Projects/fablab_website/code/site/templates/machines.php",
+		"/Users/martinrisseeuw/Documents/Projects/fablab_website/code/src/stylus/modules/colors.styl",
+		"/Users/martinrisseeuw/Documents/Projects/fablab_website/code/site/snippets/menu.php",
+		"/Users/martinrisseeuw/Documents/Projects/fablab_website/code/site/snippets/page_menu.php",
+		"/Users/martinrisseeuw/Documents/Projects/fablab_website/code/site/templates/default.php",
+		"/Users/martinrisseeuw/Documents/Projects/fablab_website/code/site/snippets/header.php",
+		"/Users/martinrisseeuw/Documents/Projects/fablab_website/code/site/snippets/footer.php",
+		"/Users/martinrisseeuw/Documents/Projects/fablab_website/code/site/config/config.php",
+		"/Users/martinrisseeuw/Documents/Projects/fablab_website/code/site/snippets/homepage_menu.php",
+		"/Users/martinrisseeuw/Documents/Projects/fablab_website/code/README.md",
+		"/Users/martinrisseeuw/Documents/Projects/fablab_website/code/assets/images/machine_logo.svg",
+		"/Users/martinrisseeuw/Desktop/close.svg",
+		"/Users/martinrisseeuw/Documents/Projects/martinrnew/site/snippets/footer.php",
+		"/Users/martinrisseeuw/Documents/Projects/martinrnew/sass/partials/_mediaqueries.scss",
+		"/Users/martinrisseeuw/Documents/Projects/javascript_component_tutorial/index.html",
+		"/Users/martinrisseeuw/Documents/Projects/martinrnew/site/snippets/header.php",
+		"/Users/martinrisseeuw/Documents/Projects/martinrnew/assets/js/jquery.js",
+		"/private/var/folders/64/n6m0wm6j5pg004j77bflbdym0000gn/T/b8fdec99-328a-4928-a558-5abe7744dff5/public/sites/www.martinr.nl/site/config/config.php",
+		"/Users/martinrisseeuw/Documents/Projects/boilerplate/build/index.html",
+		"/Users/martinrisseeuw/Documents/Projects/boilerplate/src/jade/modules/menulist.jade",
+		"/Users/martinrisseeuw/Documents/Projects/boilerplate/src/jade/modules/stickymenu.jade",
+		"/Users/martinrisseeuw/Documents/Projects/boilerplate/src/jade/modules/slidemenu.jade",
+		"/Users/martinrisseeuw/Documents/Projects/boilerplate/src/stylus/modules/standards.styl",
+		"/Users/martinrisseeuw/Documents/Projects/boilerplate/src/stylus/partials/card.styl",
+		"/Users/martinrisseeuw/Documents/Projects/boilerplate/src/scripts/main.js",
+		"/Users/martinrisseeuw/Documents/Projects/boilerplate/src/stylus/partials/base.styl",
+		"/Users/martinrisseeuw/Documents/Projects/boilerplate/src/images/logo.svg",
+		"/Users/martinrisseeuw/Documents/Projects/boilerplate/src/jade/colorcards.jade",
+		"/Users/martinrisseeuw/Documents/Projects/boilerplate/src/jade/modules/colorcard.jade",
+		"/Users/martinrisseeuw/Documents/Projects/boilerplate/src/stylus/partials/colorcards.styl",
+		"/Users/martinrisseeuw/Documents/Projects/boilerplate/src/stylus/partials/layout.styl",
+		"/Users/martinrisseeuw/Documents/Projects/boilerplate/src/stylus/modules/reset.styl",
+		"/Users/martinrisseeuw/Documents/Projects/boilerplate/src/stylus/partials/slidemenu.styl",
+		"/Users/martinrisseeuw/Documents/Projects/boilerplate/src/jade/layout.jade",
+		"/Users/martinrisseeuw/Documents/Projects/boilerplate/src/jade/slidemenu.jade",
+		"/Users/martinrisseeuw/Documents/Projects/boilerplate/src/scripts/slideMenu.js",
+		"/Users/martinrisseeuw/Documents/Projects/boilerplate/src/stylus/partials/project-custom.styl",
+		"/Users/martinrisseeuw/Documents/Projects/boilerplate/src/jade/flexbox.jade",
+		"/Users/martinrisseeuw/Documents/Projects/boilerplate/src/jade/styleguide.jade",
+		"/Users/martinrisseeuw/Documents/Projects/transparantnl/site/snippets/footer.php",
+		"/Users/martinrisseeuw/Documents/Projects/transparantnl/site/templates/article.php",
+		"/Users/martinrisseeuw/Documents/Projects/transparantnl/sass/partials/_layout.scss",
+		"/Users/martinrisseeuw/Documents/Projects/transparantnl/site/snippets/header.php",
+		"/Users/martinrisseeuw/Documents/Projects/TNL-uploader/public/style-tnl.css",
+		"/Users/martinrisseeuw/Documents/Projects/bumblebee/public/style.css",
+		"/Users/martinrisseeuw/Documents/Projects/bumblebee/views/dataset.jade",
+		"/Users/martinrisseeuw/Documents/Projects/bumblebee/views/transform.jade",
+		"/Users/martinrisseeuw/Documents/Projects/bumblebee/views/html.jade",
+		"/Users/martinrisseeuw/Documents/Projects/bumblebee/views/index.jade",
+		"/Users/martinrisseeuw/Documents/Projects/bumblebee/views/layout.jade",
+		"/Users/martinrisseeuw/Documents/Projects/bumblebee/views/header.jade",
+		"/Users/martinrisseeuw/Documents/Projects/TNL-uploader/node_modules/bumblebee/public/basic.js"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"mainContentView",
+			"style.top",
+			"featuredIt",
+			".sa",
+			"8%",
+			".color-card",
+			"cardMargin",
+			"Wat trekt jou aandacht?",
+			"approveAll",
+			"approv",
+			"button,",
+			"transform",
+			"footer",
+			"modifiableItem",
+			"td",
+			"content",
+			"Reject all",
+			"footer"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/jade/layout.jade",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 385,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								93,
+								93
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/stylus/partials/header.styl",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 51,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								36,
+								36
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Stylus/Stylus.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/stylus/partials/project-custom.styl",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 253,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								232,
+								232
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Stylus/Stylus.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/jade/index.jade",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 586,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								586,
+								309
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/stylus/partials/base.styl",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 319,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								184,
+								184
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Stylus/Stylus.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 41.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "fabacademy.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"index.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 242.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
