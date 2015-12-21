@@ -5,7 +5,4 @@ Information about students and instructors
 
 #Installation
 npm install
-
-Start server:
-
 gulp start
