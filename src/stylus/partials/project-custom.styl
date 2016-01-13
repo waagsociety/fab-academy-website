@@ -1,14 +1,13 @@
 .headerSign
 	padding 25px 50px
 	position absolute
-	width 80%
 	left 50%
 	top 50%
-	border: 4px solid #50E3C2;
+	border: 4px solid #fff;
 	-webkit-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
 	text-align: center
-	color #50E3C2
+	color #fff
 	h1,
 	h2
 		margin-bottom .2em
@@ -129,7 +128,7 @@ main
   100% {
     stroke-dashoffset: -400; } }
 
-header {
+.mainHeader{
   font-weight: 800;
 	font-size: 35em;}
 
@@ -143,6 +142,41 @@ svg {
 	top: 50%;
 	transform: translate(-50%,-50%); }
 
+.page
+	width 0
+	height 0
+	top 0
+	background-color white
+	left 0
+	position fixed
+	z-index 11
+	margin 0
+	border none
+	overflow scroll
+	visibility hidden
+	opacity 0
+	transition opacity .1s ease-out
+	header
+		background-color #BD10E0
+		height 75vh
+		h1
+			font-size 3em
+	main
+		.inner
+			max-width 800px
+			margin 80px auto
+			font-size 1.1em
+			p:nth-of-type(1)
+				font-family inherit
+				color #7f6c6c
+				font-size 1.6em
+		h1
+			text-transform none
+.page.open	
+	width 100%
+	height 100vh
+	visibility visible
+	opacity 1			
 /*# sourceMappingURL=style12.css.map */
 
 
