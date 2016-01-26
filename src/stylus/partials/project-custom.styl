@@ -93,7 +93,7 @@ main
 /* Main stuff */
 .text {
   fill: none;
-  stroke-width: 10;
+  stroke-width: 8;
   stroke-linejoin: round;
   stroke-dasharray: 35 165;
   stroke-dashoffset: 0;
@@ -130,24 +130,16 @@ main
 .mainHeader
 	svg
 		font-weight 800
-		font-size 25em
+		font-size 20em
 	.payoff
-		font-size .875em
-		position absolute
-		left 50%
 		text-align center
-		bottom 10%
-		transform translate(-50%,0%)
 
 svg {
-  width: 80%;
+  width: 100%;
+	text-align: center;
   margin: auto;
   display: block;
-  text-transform: uppercase;
-	position: absolute;
-	left: 50%;
-	top: 50%;
-	transform: translate(-50%,-50%); }
+  text-transform: uppercase; }
 
 .page
 	width 0
@@ -191,4 +183,20 @@ svg {
 	height 100vh
 	visibility visible
 	opacity 1
-/*# sourceMappingURL=style12.css.map */
+.waag
+	text-align center
+	.inner
+		width 50%
+		left 25%
+		svg
+			width 200px
+		p
+			top 1em
+			left 10px
+			font-size 100%
+			margin-right 20px
+			font-family 'brandon_textbold'
+	.st1
+		fill white
+.full-width
+	width 100%
