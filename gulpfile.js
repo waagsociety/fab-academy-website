@@ -45,7 +45,7 @@ gulp.task('js', function() {
 });
 
 
-gulp.task('scripts', function(){ 
+gulp.task('scripts', function(){
     var target = gulp.src('src/jade/header.jade');
     var sources = gulp.src(['src/scripts/*.js'], {read: false});
     var exportString = 'public/js';
