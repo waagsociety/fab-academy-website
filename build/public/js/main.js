@@ -12,18 +12,18 @@ function openBtn(){
 	btn.style.position = "fixed";
 	btn.style.left = rect.left - window.scrollX + "px";
 	btn.style.top = rect.top - window.scrollY - 50 + "px";
-	document.body.style.overflowY = "hidden";	
+	document.body.style.overflowY = "hidden";
 
-	setTimeout(function(){ 
+	setTimeout(function(){
 		btn.innerHTML = "";
-		btn.classList.add("open"); 
+		btn.classList.add("open");
 	}, 300);
 
-	setTimeout(function(){ 
+	setTimeout(function(){
 		page.classList.add("open");
 	}, 350);
 
-	setTimeout(function(){ 
+	setTimeout(function(){
 		page.style.opacity = 1;
 	}, 500);
 }
